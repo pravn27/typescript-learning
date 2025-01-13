@@ -17,3 +17,15 @@ tsc --init
 ```bash
 tsc index.ts
 ```
+
+## 5. watch ts file changes, on fly changes to js file
+
+```bash
+tsc -w index.ts
+```
+
+## 6. tsconfig with rootDir, outDir where rootDir is the source directory and outDir is the output directory
+
+```bash
+ts compiler option with rootDir, outDir in tsconfig.json file
+```
